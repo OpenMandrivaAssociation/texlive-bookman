@@ -1,3 +1,9 @@
+# revision 21993
+# category Package
+# catalog-ctan /fonts/urw/base35
+# catalog-date 2011-03-01 21:42:17 +0100
+# catalog-license gpl
+# catalog-version undef
 Name:		texlive-bookman
 Version:	20110301
 Release:	1
@@ -248,6 +254,7 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %{_texmfdistdir}/tex/latex/bookman/ot1ubk.fd
 %{_texmfdistdir}/tex/latex/bookman/t1ubk.fd
 %{_texmfdistdir}/tex/latex/bookman/ts1ubk.fd
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -258,3 +265,5 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips fonts tex %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
