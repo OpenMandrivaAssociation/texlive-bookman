@@ -256,3 +256,18 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips fonts tex %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110301-2
++ Revision: 749836
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110301-1
++ Revision: 717967
+- texlive-bookman
+- texlive-bookman
+- texlive-bookman
+- texlive-bookman
+- texlive-bookman
+
