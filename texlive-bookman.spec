@@ -1,12 +1,12 @@
-# revision 21993
+# revision 31835
 # category Package
 # catalog-ctan /fonts/urw/base35
-# catalog-date 2011-03-01 21:42:17 +0100
+# catalog-date 2012-06-06 22:57:48 +0200
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-bookman
-Version:	20110301
-Release:	2
+Version:	20120606
+Release:	1
 Summary:	URW "Base 35" font pack for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/urw/base35
@@ -86,16 +86,6 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %{_texmfdistdir}/fonts/tfm/adobe/bookman/pbklo8c.tfm
 %{_texmfdistdir}/fonts/tfm/adobe/bookman/pbklo8r.tfm
 %{_texmfdistdir}/fonts/tfm/adobe/bookman/pbklo8t.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/bookman/pbkd8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/bookman/pbkdc8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/bookman/pbkdi8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/bookman/pbkl8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/bookman/pbklc8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/bookman/pbkli8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/bookman/rpbkd.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/bookman/rpbkdi.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/bookman/rpbkl.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/bookman/rpbkli.tfm
 %{_texmfdistdir}/fonts/tfm/urw35vf/bookman/ubkb7t.tfm
 %{_texmfdistdir}/fonts/tfm/urw35vf/bookman/ubkb8c.tfm
 %{_texmfdistdir}/fonts/tfm/urw35vf/bookman/ubkb8r.tfm
@@ -190,12 +180,6 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %{_texmfdistdir}/fonts/vf/adobe/bookman/pbklo7t.vf
 %{_texmfdistdir}/fonts/vf/adobe/bookman/pbklo8c.vf
 %{_texmfdistdir}/fonts/vf/adobe/bookman/pbklo8t.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/bookman/pbkd8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/bookman/pbkdc8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/bookman/pbkdi8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/bookman/pbkl8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/bookman/pbklc8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/bookman/pbkli8z.vf
 %{_texmfdistdir}/fonts/vf/urw35vf/bookman/ubkb7t.vf
 %{_texmfdistdir}/fonts/vf/urw35vf/bookman/ubkb8c.vf
 %{_texmfdistdir}/fonts/vf/urw35vf/bookman/ubkb8t.vf
@@ -256,18 +240,3 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips fonts tex %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110301-2
-+ Revision: 749836
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110301-1
-+ Revision: 717967
-- texlive-bookman
-- texlive-bookman
-- texlive-bookman
-- texlive-bookman
-- texlive-bookman
-
