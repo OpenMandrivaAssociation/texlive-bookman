@@ -5,7 +5,7 @@ Summary:	URW "Base 35" font pack for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/urw/base35
 License:	GPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bookman.r61719.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bookman.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
